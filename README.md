@@ -31,6 +31,7 @@
 - See bbox.json in `org` directory for sample
 
 ## Demo
+Case of face detection.
 ```
 python impulso.py predict -e 0912-0121-1904 -m 70 -x ./tmp/input -y ./tmp/output
 ```
