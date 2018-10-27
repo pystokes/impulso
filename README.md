@@ -2,7 +2,6 @@
 
 ## Description
 - Detect objects (Ex. faces, captions)
-- Detect faces and visualize the results as heatmap.
 
 ## Data format
 ### Structure of original data
@@ -31,7 +30,7 @@
 - See bbox.json in `org` directory for sample
 
 ## Demo
-Case of face detection.
+The case of face detection.
 ```
 python impulso.py predict -e 0912-0121-1904 -m 70 -x ./tmp/input -y ./tmp/output
 ```
