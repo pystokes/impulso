@@ -1,0 +1,155 @@
+[
+    {
+        "FileName": "0_Parade_marchingband_1_849.jpg",
+        "BBox": [
+            {
+                "Left": 449,
+                "Top": 330,
+                "Width": 122,
+                "Height": 149
+            }
+        ]
+    },
+    {
+        "FileName": "0_Parade_Parade_0_904.jpg",
+        "BBox": [
+            {
+                "Left": 361,
+                "Top": 98,
+                "Width": 263,
+                "Height": 339
+            }
+        ]
+    },
+    {
+        "FileName": "0_Parade_marchingband_1_799.jpg",
+        "BBox": [
+            {
+                "Left": 78,
+                "Top": 221,
+                "Width": 7,
+                "Height": 8
+            },
+            {
+                "Left": 78,
+                "Top": 238,
+                "Width": 14,
+                "Height": 17
+            },
+            {
+                "Left": 113,
+                "Top": 212,
+                "Width": 11,
+                "Height": 15
+            },
+            {
+                "Left": 134,
+                "Top": 260,
+                "Width": 15,
+                "Height": 15
+            },
+            {
+                "Left": 163,
+                "Top": 250,
+                "Width": 14,
+                "Height": 17
+            },
+            {
+                "Left": 201,
+                "Top": 218,
+                "Width": 10,
+                "Height": 12
+            },
+            {
+                "Left": 182,
+                "Top": 266,
+                "Width": 15,
+                "Height": 17
+            },
+            {
+                "Left": 245,
+                "Top": 279,
+                "Width": 18,
+                "Height": 15
+            },
+            {
+                "Left": 304,
+                "Top": 265,
+                "Width": 16,
+                "Height": 17
+            },
+            {
+                "Left": 328,
+                "Top": 295,
+                "Width": 16,
+                "Height": 20
+            },
+            {
+                "Left": 389,
+                "Top": 281,
+                "Width": 17,
+                "Height": 19
+            },
+            {
+                "Left": 406,
+                "Top": 293,
+                "Width": 21,
+                "Height": 21
+            },
+            {
+                "Left": 436,
+                "Top": 290,
+                "Width": 22,
+                "Height": 17
+            },
+            {
+                "Left": 522,
+                "Top": 328,
+                "Width": 21,
+                "Height": 18
+            },
+            {
+                "Left": 643,
+                "Top": 320,
+                "Width": 23,
+                "Height": 22
+            },
+            {
+                "Left": 653,
+                "Top": 224,
+                "Width": 17,
+                "Height": 25
+            },
+            {
+                "Left": 793,
+                "Top": 337,
+                "Width": 23,
+                "Height": 30
+            },
+            {
+                "Left": 535,
+                "Top": 311,
+                "Width": 16,
+                "Height": 17
+            },
+            {
+                "Left": 29,
+                "Top": 220,
+                "Width": 11,
+                "Height": 15
+            },
+            {
+                "Left": 3,
+                "Top": 232,
+                "Width": 11,
+                "Height": 15
+            },
+            {
+                "Left": 20,
+                "Top": 215,
+                "Width": 12,
+                "Height": 16
+            }
+        ]
+    }
+]
