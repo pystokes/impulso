@@ -1,7 +1,7 @@
 # __impulso__
 
 ## Description
-- Detect objects (Ex. faces, captions)
+Framework for object detection (Ex. faces, captions)
 
 ## Data format
 ### Structure of original data
@@ -23,11 +23,10 @@
 ```
 
 ### Input
-- Images in the above structure
+Images in the above structure.
 
 ### Ground Truth
-- bbox.json in the above structure
-- See bbox.json in `org` directory for sample
+Ground truth data is defined with `bbox.json`. See `bbox.json` in `org` directory for example.
 
 ## Demo
 The case of face detection.
