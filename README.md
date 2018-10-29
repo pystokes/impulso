@@ -4,7 +4,8 @@
 Framework for object detection (Ex. faces, captions)  
 
 ## Data format
-### Structure of original data
+### Structure
+
 ```
 {IMPULSO_HOME}
   └─org
@@ -23,11 +24,12 @@ Framework for object detection (Ex. faces, captions)
 ```
 
 ### Input
-Locate images in `train' and 'test' directory in the above structure.  
+Locate images in `train` and `test` directories in the above structure.  
 
 ### Ground Truth
-Ground truth (GT) is defined with `bbox.json` in `train` and `test' directories.  
+Ground truth (GT) is defined with `bbox.json` in `train` and `test` directories.  
 GT's structure is as follows.  
+"BBox" indicates regions of objects.
 
 ```
 [
@@ -95,12 +97,14 @@ python impulso.py test -e EXPERIMENT-ID -m MODEL-ID
 python impulso.py predict -e EXPERIMENT-ID -m MODEL-ID -x INPUT_DIR -y OUTPUT_DIR
 ```
 
-## About DATA-ID, EXPERIMENT-ID and MODEL-ID
-`DATA-ID`
-- Published when execute `python impulso.py dataset`. See stdout.
-`EXPERIMENT-ID`
-- Published when execute `python impulso.py prepare -d DATA-ID`. See stdout.
-`MODEL-ID`
+## About IDs
+`DATA-ID`  
+- Published when execute `python impulso.py dataset`
+
+`EXPERIMENT-ID`  
+- Published when execute `python impulso.py prepare -d DATA-ID`
+
+`MODEL-ID`  
 - Published in saving model
   - MODEL-ID is 70 for sample model (model.00070-0.02-0.00-0.03-0.00.hdf5)
 
