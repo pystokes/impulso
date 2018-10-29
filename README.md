@@ -20,6 +20,7 @@ Framework for object detection (Ex. faces, captions)
         ├─{image}.jpg
         ├─{image}.jpg
         ├─...
+        ├─{image}.jpg
         └─bbox.json
 ```
 
