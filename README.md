@@ -15,7 +15,7 @@ Framework for object detection (Ex. faces, captions)
      │  ├─...
      │  ├─{image}.jpg
      │  └─bbox.json
-     └─train
+     └─test
         ├─{image}.jpg
         ├─{image}.jpg
         ├─{image}.jpg
