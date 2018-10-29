@@ -1,7 +1,7 @@
 # __impulso__
 
 ## Description
-Framework for object detection (Ex. faces, captions)
+Framework for object detection (Ex. faces, captions)  
 
 ## Data format
 ### Structure of original data
@@ -23,18 +23,36 @@ Framework for object detection (Ex. faces, captions)
 ```
 
 ### Input
-Images in the above structure.
+Locate images in `train' and 'test' directory in the above structure.  
 
 ### Ground Truth
-Ground truth data is defined with `bbox.json`. See `bbox.json` in `org` directory for example.
+Ground truth (GT) is defined with `bbox.json` in `train` and `test' directories.  
+GT's structure is as follows.  
 
-## Demo
-The case of face detection.
 ```
-python impulso.py predict -e 0912-0121-1904 -m 70 -x ./tmp/input -y ./tmp/output
+[
+    {
+        "FileName": "IMAGE_NAME.jpg",
+        "BBox": [
+            {"Left": 449, "Top": 330, "Width": 122, "Height": 149},
+            ...,
+            {"Left": 104, "Top": 59, "Width": 235, "Height": 55}
+        ]
+    },
+    ...,
+    {
+        "FileName": "IMAGE_NAME.jpg",
+        "BBox": [
+            {"Left": 33, "Top": 20, "Width": 222, "Height": 382},
+            ...,
+            {"Left": 131, "Top": 151, "Width": 42, "Height": 76}
+        ]
+    }
+]
 ```
 
 ## Output examples
+This is the case of face detection.  
 
 ![Sample1](https://github.com/pystokes/impulso/blob/master/tmp/output/figures/hamabe_minami_1.jpg)
 ![Sample2](https://github.com/pystokes/impulso/blob/master/tmp/output/figures/hamabe_minami_2.jpg)
