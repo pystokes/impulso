@@ -112,9 +112,6 @@ python impulso.py predict -e EXPERIMENT-ID -m MODEL-ID -x INPUT_DIR -y OUTPUT_DI
 - Permitted: Private Use  
 - Forbidden: Commercial Use  
 
-## Author
-[LotFun](https://github.com/pystokes)
-
 ## Specification
 ### Data to be created with [aggregator.py](https://github.com/pystokes/impulso/blob/master/src/aggregator.py)
 - IMPULSO_HOME: Absolute path to directory [impulso.py](https://github.com/pystokes/impulso/blob/master/impulso.py) exists
@@ -133,3 +130,5 @@ python impulso.py predict -e EXPERIMENT-ID -m MODEL-ID -x INPUT_DIR -y OUTPUT_DI
 - Detect just one kind of objects
   - Can not multi kind of objects like detecting cat and dog
 
+## Author
+[LotFun](https://github.com/pystokes)
