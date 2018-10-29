@@ -130,6 +130,7 @@ python impulso.py predict -e EXPERIMENT-ID -m MODEL-ID -x INPUT_DIR -y OUTPUT_DI
 - Make all images one numpy.array (npy file), so can not deal with large-scale datasets
 - Detect just one kind of objects
   - Can not multi kind of objects like detecting cat and dog
+- Resized input and output are the same size
 
 ## Author
 [LotFun](https://github.com/pystokes)
