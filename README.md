@@ -133,4 +133,4 @@ python impulso.py predict -e EXPERIMENT-ID -m MODEL-ID -x INPUT_DIR -y OUTPUT_DI
 - Resized input and output are the same size
 
 ## Author
-[LotFun](https://github.com/pystokes)
+[pystokes](https://github.com/pystokes)
